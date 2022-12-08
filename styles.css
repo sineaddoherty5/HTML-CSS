@@ -82,7 +82,8 @@ a {
 .caption {
     font-size: 15px;
     font-style: italic;
-    text-align: center;
+   /* text-align: center; */
+   padding: 0 10px;
 }
 
 .container {
@@ -93,13 +94,11 @@ a {
 }
 
 .cake-item {
-    border: 1px dashed yellow;
     width: 275px;
     height: 275px;
-    /* padding: 4px; */
+    padding: 4px;
 }
 
 .cake-group {
-    border: 2px solid green;
-    width: 275;
+    width: 283px;
 }
