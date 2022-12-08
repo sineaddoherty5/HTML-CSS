@@ -1,86 +1,104 @@
-/* Un-comment by deleting the star and slash on the beginning and end of every style. Try different styles, look up what you can do and change, or the options VSC gives you*/
-/* ======================================== */
-
-
-/* ====poster section====*/
-
-
-/* below styles all sections */
-
- 
-
-/* section { 
-    padding: 8px 0px 0px 0px;
-}  */
-
-section{
-    padding: 8px 0px 0px 0px;
+body {
+    background-color: purple;
 }
 
-/* below styles only "section 2" */
-
-/* .section-two {
-    padding: 6px 2px 2px 8px;
-    background-color: deepskyblue;
-}  */
-
-.section-two{
-    padding: 6px 2px 2px 8px;
-    background-color: deepskyblue;
+p {
+    font-family: monospace;
+    text-align: center;
+    color: lightpink
 }
 
-/* designating a % for width for an image allows a rescale when web brower moves */
+h1,h2,h3,h4,h5,h6 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:lightyellow;
+    font-style: italic;
+    text-align: right;
+}
 
- /* .cake-poster-item {
-    border: 1px solid yellow; 
-    display: flex; 
-    flex-wrap: wrap;
-    width: 40%;   
-    padding: 10px; 
- } */
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 150px;
+    color:white;
+    font-style: normal;
+}
 
- .cake-poster-item{
+h2 {
+    color:black;
+}
+
+.special {
+    font-family: 'Gill Sans', 'Gill Sana MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: left;
+}
+
+ul {
+    list-style-type:square;
+
+}
+
+ol {
+    list-style-type: upper-roman;
+
+}
+
+li {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.fave{
+    color:orangered;
+
+}
+
+.pizza{
+    width: 50%;
+
+}
+
+a {
+    color:white;
+}
+
+/*Cake page */
+
+.cake-text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.section-one {
+    border: 1px solid white;
+    background-color: darkslateblue;
+}
+
+.caption {
+    font-size: 15px;
+    font-style: italic;
+   /* text-align: center; */
+   padding: 0 10px;
+}
+
+.container {
+
     display: flex;
+    justify-content: space-evenly;
     flex-wrap: wrap;
-    width: 40%;
-    padding: 10px;
- }
-
- /* .dark {
-    color: #333333;
-}  */
-
-.dark{
-    color: #333333;
-}
- 
-/* .center {
-    text-align: center;
-}  */
-
-.center{
-    text-align: center;
 }
 
-/*====footer styles====*/
-
-
- /* footer {
-    
-    background-color: white;
-    
-}  */
-
-footer{
-    background-color: white;
+.cake-item {
+    width: 275px;
+    height: 275px;
+    padding: 4px;
 }
 
- /* .disclaimer {   
-    padding: 5px;
-    text-align: center;
-}  */
-
-.disclaimer{
-    padding: 5px;
-    text-align: center;
+.cake-group {
+    width: 283px;
 }
